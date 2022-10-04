@@ -508,6 +508,9 @@ footer .copyright{
 
 /* Responsive Design */
 @media (max-width:799px) {
+    .section-p1{
+        padding:  40px 40px;
+    }
     #nav-links {
         display: flex;
         flex-direction: column;
@@ -557,5 +560,14 @@ footer .copyright{
     #feature{
         justify-content: center;
     }
-    #feature .fe-box
+    #feature .fe-box{
+        margin: 15px 15px;
+    }
+    #product1 .pro-container{
+        justify-content: center;
+    }
+    #product1 .pro{
+        margin: 15px;
+    }
+    
 }
